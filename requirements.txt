@@ -1,0 +1,5 @@
+pip install streamlit
+pip install ibm-watson
+pip install ibm-generative-ai
+pip install transformers
+pip install torch
