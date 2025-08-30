@@ -9,7 +9,7 @@ import time
 # CONFIG - replace tokens/creds here
 # -----------------------
 # Hugging Face Inference API token (preferred)
-HF_TOKEN = "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"  # <-- replace with your token or leave empty
+HF_TOKEN = "replace this text with API key"  # <-- replace with your token or leave empty
 
 # Optional: IBM Watson Assistant credentials (if you want to use Watson instead)
 IBM_API_KEY = ""        # <-- fill if you want to use IBM Watson
@@ -238,3 +238,4 @@ with st.expander("Diagnostics & API Test (advanced)", expanded=False):
             except Exception as e:
                 st.error(f"Token test failed: {e}")
     st.markdown("Tip: If your HF token returns 401 or 403, re-generate a token at https://huggingface.co/settings/tokens (Read + Inference scopes).")
+
